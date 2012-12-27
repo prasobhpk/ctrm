@@ -1,4 +1,4 @@
-package com.stephennimmo.demo.jpa.test;
+package com.snimmo.ctrm.repository.test;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,31 +6,32 @@ import javax.persistence.Persistence;
 
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Before;
 import org.junit.BeforeClass;
-import org.junit.Test;
 
-import com.stephennimmo.demo.jpa.ApplicationUser;
-
-public class TestApplicationUserEntityManager {
-
-	@Test
-	public void testInsert() {
-		entityManager.persist(new ApplicationUser());
-	}
-
-	private static final String TEST_UNIT_NAME = "demoManager";
+public abstract class AbstractEntityManagerTest {
+	
+	private static final String TEST_UNIT_NAME = "ctrmPersistence";
 	protected static EntityManagerFactory entityManagerFactory;
 	protected static EntityManager entityManager;
-
+	
+	public static EntityManager getEntityManager() {
+		return entityManager;
+	}
+	
 	@BeforeClass
 	public static void prepareEntityManagerFactory() {
 		entityManagerFactory = Persistence.createEntityManagerFactory(TEST_UNIT_NAME);
 		entityManager = entityManagerFactory.createEntityManager();
+	}
+	
+	@Before
+	public void createTransaction() {
 		entityManager.getTransaction().begin();
 	}
 
 	@After
-	public void rollbackTransactionAndReleaseEntityManager() {
+	public void rollbackTransaction() {
 		entityManager.getTransaction().rollback();
 	}
 
