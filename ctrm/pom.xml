@@ -8,4 +8,6 @@
 	<packaging>pom</packaging>
 	<name>ctrm</name>
 	
+	<properties></properties>
+	
 </project>
