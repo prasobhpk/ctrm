@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FIXML>
+	<Batch>
+		<SecDef RptID="644" BizDt="2013-01-03">
+			<Instrmt Sym="NG" ID="NG" Desc="NATURAL GAS HENRY HUB FUTURE" SecTyp="FUT" Src="H" MMY="201401" MatDt="2013-12-27"
+				Mult="10000" Exch="NYMEX" UOM="MMBtu" UOMQty="10000" PxUOM="MMBtu" PxUOMQty="1" SettlMeth="P" ListMeth="0" ValMeth="FUT"
+				ProdCmplx="ENRGY" Status="1" FlexProdElig="N" FlexInd="N" MinPxIncr="1" PxQteCcy="USD">
+				<AID AltID="NG 201401" AltIDSrc="H" />
+				<AID AltID="126492" AltIDSrc="103" />
+				<AID AltID="NGF4" AltIDSrc="101" />
+				<AID AltID="NG 201401" AltIDSrc="100" />
+				<Evnt EventTyp="5" Dt="2008-02-19" />
+				<Evnt EventTyp="7" Dt="2013-12-27" />
+				<Evnt EventTyp="17" Dt="2013-12-30" />
+				<Evnt EventTyp="18" Dt="2013-12-30" />
+				<Evnt EventTyp="13" Dt="2014-01-01" />
+				<Evnt EventTyp="105" Dt="2013-12-27" />
+				<Evnt EventTyp="106" Dt="2013-09-27" />
+				<Evnt EventTyp="107" Dt="2013-12-26" />
+				<Evnt EventTyp="14" Dt="2014-01-31" />
+				<Evnt EventTyp="23" Dt="2013-12-30" />
+				<Evnt EventTyp="24" Dt="2013-12-30" />
+			</Instrmt>
+			<InstrmtExt>
+				<Attrb Typ="27" Val="N" />
+				<Attrb Typ="25" Val="1" />
+				<Attrb Typ="26" Val="1" />
+				<Attrb Typ="29" Val="Y" />
+				<Attrb Typ="24" Val="22" />
+				<Attrb Typ="24" Val="1" />
+				<Attrb Typ="24" Val="3" />
+				<Attrb Typ="24" Val="12" />
+				<Attrb Typ="24" Val="0" />
+				<Attrb Typ="24" Val="2" />
+				<Attrb Typ="30" Val="1" />
+			</InstrmtExt>
+			<MktSegGrp MktID="CME" MktSegID="ALL">
+				<SecTrdgRules>
+					<BaseTrdgRules>
+						<TickRules StartTickPxRng="2.506" EndTickPxRng="9.424" TickIncr="0.001" TickRuleTyp="0" />
+					</BaseTrdgRules>
+				</SecTrdgRules>
+			</MktSegGrp>
+			<MarginDataGrp>
+				<MarginData Typ="1" Rate="2200" />
+				<MarginData Typ="0" Rate="1750" />
+			</MarginDataGrp>
+		</SecDef>
+		<SecDef RptID="645" BizDt="2013-01-03">
+			<Instrmt Sym="NG" ID="NG" Desc="NATURAL GAS HENRY HUB FUTURE" SecTyp="FUT" Src="H" MMY="201402" MatDt="2014-01-29"
+				Mult="10000" Exch="NYMEX" UOM="MMBtu" UOMQty="10000" PxUOM="MMBtu" PxUOMQty="1" SettlMeth="P" ListMeth="0" ValMeth="FUT"
+				ProdCmplx="ENRGY" Status="1" FlexProdElig="N" FlexInd="N" MinPxIncr="1" PxQteCcy="USD">
+				<AID AltID="NG 201402" AltIDSrc="H" />
+				<AID AltID="126493" AltIDSrc="103" />
+				<AID AltID="NGG4" AltIDSrc="101" />
+				<AID AltID="NG 201402" AltIDSrc="100" />
+				<Evnt EventTyp="5" Dt="2008-02-19" />
+				<Evnt EventTyp="7" Dt="2014-01-29" />
+				<Evnt EventTyp="17" Dt="2014-01-30" />
+				<Evnt EventTyp="18" Dt="2014-01-30" />
+				<Evnt EventTyp="13" Dt="2014-02-01" />
+				<Evnt EventTyp="105" Dt="2014-01-29" />
+				<Evnt EventTyp="106" Dt="2013-10-30" />
+				<Evnt EventTyp="107" Dt="2014-01-28" />
+				<Evnt EventTyp="14" Dt="2014-02-28" />
+				<Evnt EventTyp="23" Dt="2014-01-30" />
+				<Evnt EventTyp="24" Dt="2014-01-30" />
+			</Instrmt>
+			<InstrmtExt>
+				<Attrb Typ="27" Val="N" />
+				<Attrb Typ="25" Val="1" />
+				<Attrb Typ="26" Val="1" />
+				<Attrb Typ="29" Val="Y" />
+				<Attrb Typ="24" Val="22" />
+				<Attrb Typ="24" Val="1" />
+				<Attrb Typ="24" Val="3" />
+				<Attrb Typ="24" Val="12" />
+				<Attrb Typ="24" Val="0" />
+				<Attrb Typ="24" Val="2" />
+				<Attrb Typ="30" Val="1" />
+			</InstrmtExt>
+			<MktSegGrp MktID="CME" MktSegID="ALL">
+				<SecTrdgRules>
+					<BaseTrdgRules>
+						<TickRules StartTickPxRng="2.506" EndTickPxRng="9.424" TickIncr="0.001" TickRuleTyp="0" />
+					</BaseTrdgRules>
+				</SecTrdgRules>
+			</MktSegGrp>
+			<MarginDataGrp>
+				<MarginData Typ="1" Rate="2200" />
+				<MarginData Typ="0" Rate="1750" />
+			</MarginDataGrp>
+		</SecDef>
+	</Batch>
+</FIXML>
